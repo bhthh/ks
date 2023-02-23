@@ -1,2 +1,2 @@
-Telethon==1.21.1
-pyrogram
+python -V
+Python 3.11.2
