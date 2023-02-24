@@ -1,8 +1,10 @@
 import telebot
-
-token ="5847365664:AAE-VbpGfVo4AL5Ihk2pHwL2rJGX6jlLPkM"
-
-bot = telebot.TeleBot(token)
+import app.json
+import config
+import Procfile
+import requirements.txt
+import runtime.txt
+import Dockerfile
 
 @bot.message_handler(commands=["start"])
 def start(message):
