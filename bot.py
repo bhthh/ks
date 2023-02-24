@@ -1,4 +1,3 @@
-import telebot
 import app.json
 import config
 import Procfile
